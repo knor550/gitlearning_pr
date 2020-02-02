@@ -1,1 +1,25 @@
+<<<<<<< HEAD
 Merci pour cette formation que vous nous donnez avec tant de passion
+=======
+Jajoute ceci dans son fichier
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 86bb713a2941250ad35d8a593dd54a3c4cedbe03
