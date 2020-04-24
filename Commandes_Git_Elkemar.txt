@@ -1,0 +1,38 @@
+$ git --version : pour determiner la version de git installer
+$ git config --global user.name "Elkemar Sao" : pour definir le nom d'utilisateur (pseudo)
+$ git config --global user.email elkemarsao@example.cm : pour definir le nom l'adresse email
+$ git config --list : pour vérifier les réglages
+$ git config <paramètre> : vérifier la valeur effective d’un paramètre particulier. exp: $ git config user.name
+
+  Obtenir de l’aide
+Besoin d’aide pour utiliser Git, il y a trois moyens d’obtenir les pages de manuel pourtoutes les commandes de Git :
+$ git help <commande>
+$ git <commande> --help
+$ man git-<commande>                 Exp: $ git help config
+
+$cd <nom du dossier> : (cd : change directory) pour changer de dossier
+$cd  :  pour revenir en arrier
+$mkdir <nom du nouveau dossier> : pour creer un dossier. Nom du dossier sans espace. NB: avec espace sa va creer plusieurs dossiers (chaque dossier aura pour nom l'un des termes)
+$mkdir "New Folder" : pour creer un dossier dont le nom a les espaces
+$ls  : pour voir ce qu'il y'a dans un dossier. Ne marche pas surl'invite de commande, il faut plutot taper <dir>
+$echo <contenu du fichier>   >nom_du_fichier.extention exp: $echo Bonjour la classe >HelloWord.txt
+$ git init : Si vous commencez à suivre un projet existant dans Git, vous n’avez qu’à vous positionner dans le répertoire du projet (avec les cmd CD) et saisir 
+
+$git status : pour verifier le statut du repertoire
+$git add <"nom du fichier"> : pour ajouter un fichier au staging
+$git commit -m "valeur" : pour activerle suivi d'un fichier
+
+$git checkout -b <"nom de la branche"> : pour creer une nouvelle branche
+$git checkout -d <"nom de la branche"> : pour supprimer une branche
+$git branch : pour aficher toutes lesbranches qui ont ete creer 
+$git checkout "nom de la branche" : pour entrer dans une brnache qui existe deja
+$git merge master : si vous etes dans une branche quelquonque et que vous voullez que les changements sur la branche "master" se refletent dans la bracnhe encours
+$git touch <"nom du fichier"> : pour creer un fichier
+
+#Pour pousser le contenu du repo local  dans notre repo github (en ligne)
+$git remote add origin <lien du repos github> : on ajoute d'abord le lien du repo github dans le repo local
+$git push -u origin <la branch> : pour pousser la brache quon veut dans le repo github
+
+#pour cloner un repo github
+$git clone <url github du repos> : s'assurer qu'on n'est pas dans un repo local existant, mais plutot dans un repertoire parent
+                                                                                         
